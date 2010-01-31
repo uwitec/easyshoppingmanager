@@ -1,0 +1,43 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+	
+		<!-- 设置数据库连接信息 -->
+		<property name="hibernate.connection.url">
+			jdbc:derby://localhost:1527/smdb
+		</property>
+		
+		<property name="hibernate.connection.driver_class">
+			org.apache.derby.jdbc.ClientDriver
+		</property>
+		
+		<property name="hibernate.connection.username">
+			admin
+		</property>
+		
+		<property name="hibernate.connection.password">
+			admin
+		</property>
+
+		<!-- 设置数据库方言 -->
+		<property name="dialect">
+			org.hibernate.dialect.DB2Dialect
+		</property>
+		
+		<property name="hibernate.show_sql">true</property>
+		
+		<property name="hibernate.transaction.factory_class">
+			org.hibernate.transaction.JDBCTransactionFactory
+		</property>
+		
+		<!-- 指定JDBC抓取数据量的大小 -->
+		<property name="hibernate.jdbc.fetch_size">20</property>
+		
+		<!-- 指定JDBC批量更新数据块的大小，对性能影响较大 -->
+		<property name="hibernate.jdbc.batch_size">20</property>
+
+	</session-factory>
+</hibernate-configuration>
