@@ -22,6 +22,7 @@ CREATE TABLE Supplier(
 	contactPhone1	varchar(20),
 	contactPhone2	varchar(20),
 	address		varchar(100),
+	remark		varchar(100),
 	PRIMARY KEY(supplierId)
 )DEFAULT CHARSET=UTF8;
 
@@ -43,7 +44,7 @@ CREATE TABLE CommodityCategory(
 )DEFAULT CHARSET=UTF8;
 
 CREATE TABLE StoreCommodity(
-	commidityId	bigint(20) unsigned NOT NULL auto_increment,
+	commodityId	bigint(20) unsigned NOT NULL auto_increment,
 	commodityName	varchar(50)	NOT NULL,
 	specification	varchar(50),
 	unit		varchar(20)	NOT NULL,
@@ -52,7 +53,7 @@ CREATE TABLE StoreCommodity(
 	minQuantity	int,
 	commodityRemark	varchar(100),
 	categoryName	varchar(20),
-	PRIMARY KEY(commidityId)
+	PRIMARY KEY(commodityId)
 )DEFAULT CHARSET=UTF8;
 --增加商品到商品类别的外键约束
 ALTER TABLE StoreCommodity ADD CONSTRAINT StoreCommodityToCCategory
