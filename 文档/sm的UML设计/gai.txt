@@ -1,0 +1,1 @@
+把record中的purchaseDate改为Date
