@@ -53,7 +53,7 @@ CREATE TABLE StoreCommodity(
 	minQuantity	int,
 	commodityRemark	varchar(100),
 	categoryName	varchar(20),
-	PRIMARY KEY(commodityId)
+	PRIMARY KEY(commodityId,commodityName, unit)
 )DEFAULT CHARSET=UTF8;
 --增加商品到商品类别的外键约束
 ALTER TABLE StoreCommodity ADD CONSTRAINT StoreCommodityToCCategory

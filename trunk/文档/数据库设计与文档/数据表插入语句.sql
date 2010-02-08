@@ -35,3 +35,52 @@ insert into commoditycategory(categoryName, categoryRemark) values('´×','ºìÉ«µÄ´
 
 --storeCommodity
 insert into storeCommodity(commodityName,specification, unit, price, quantity, minQuantity, commodityRemark, categoryName) values('É½¶«´óÃ×','1¡Á50kg','Ò»´ü',100.0, 50, 10, 'ºÜºÃµÄÉ½¶«´óÃ×', '´óÃ×');
+
+
+
+
+
+
+
+
+
+--purchaseRecord
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²âÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â1ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â2ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â3ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â4ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â5ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â6ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â7ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â8ÊÔ','11','admin');
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','1','100','0','2010-02-07 00:00:00','²â9ÊÔ','11','admin');
+
+
+insert into purchaseRecord(commodityName,specification, unit, price, quantity, accountPaid, accountNotPaid, purchaseDate, purchaseRemark, supplierId, userName) values
+('É½¶«´óÃ×','1¡Á50kg','Ò»´ü','100','2','100','0','2010-02-07 00:00:00','²â9ÊÔ','11','admin');
+
+
+
+
+
+
